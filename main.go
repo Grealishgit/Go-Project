@@ -26,6 +26,10 @@ func main() {
 		fmt.Println("x is greater than or equal to y")
 	}
 
+	var colors = []string{"Red", "Green", "Blue"}
+	colors = append(colors, "Yellow", "Purple")
+	fmt.Println(colors)
+
 	// fmt.Println(arr1[0])
 	// fmt.Println(arr2)
 	// fmt.Println(cars)
