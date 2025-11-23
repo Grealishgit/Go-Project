@@ -14,7 +14,17 @@ func main() {
 	// myslice1 := []string{"Apple", "Banana", "Cherry", "Mango", "Orange", "Grapes"}
 	myslice1 := []int{1, 2, 3, 4}
 	myslice2 := []int{5, 10, 15, 20}
-	myslice3 := append(myslice1, myslice2...)
+	myslice3 := append(myslice1, myslice2...);
+
+	const x int = 5
+	const y int = 10
+	fmt.Println("Sum:", x+y)
+
+	if(x < y){
+		fmt.Println("x is less than y")
+	} else{
+		fmt.Println("x is greater than or equal to y")
+	}
 
 	// fmt.Println(arr1[0])
 	// fmt.Println(arr2)
